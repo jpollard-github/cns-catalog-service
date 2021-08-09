@@ -5,3 +5,8 @@ server:
     threads:
       min-spare: 10
       max: 100
+spring:
+  application:
+    name: catalog-service
+  config:
+    import: optional:configserver:http://localhost:8888
