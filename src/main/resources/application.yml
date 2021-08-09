@@ -5,7 +5,11 @@ server:
     threads:
       min-spare: 10
       max: 100
+polar:
+  greeting: Welcome to the local book catalog!
 spring:
+  profiles:
+    active: test-data
   application:
     name: catalog-service
   config:
