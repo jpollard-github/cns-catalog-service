@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:13:///
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  profile:
+    active: default
+  config:
+    import: optional:configserver:http://localhost:8888

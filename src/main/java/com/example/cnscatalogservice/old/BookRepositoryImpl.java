@@ -1,5 +1,6 @@
-package com.example.cnscatalogservice.domain;
+package com.example.cnscatalogservice.old;
 
+import com.example.cnscatalogservice.domain.Book;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;

@@ -1,7 +1,7 @@
 package com.example.cnscatalogservice.demo;
 
 import com.example.cnscatalogservice.domain.Book;
-import com.example.cnscatalogservice.domain.BookRepository;
+import com.example.cnscatalogservice.old.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Profile;
